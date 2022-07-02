@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;500&family=Ubuntu:ital,wght@0,400;0,500;1,700&display=swap');
+
+body{
+    background-color: #F2F2F2;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 90vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    height: 67px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.navbar li {
+    list-style: none;
+    margin: 0 18px;
+    font-size: 18px;
+}
+
+.topLeft {
+    width: 50%;
+    padding: 0.2rem 0;
+}
+
+.logo {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 34px;
+    color: #FF6B6B;
+}
+.gym-img{
+    width: 85rem;
+    height: 40rem;
+    filter: blur(2px);
+    position: relative;
+}
+
+.img-content{
+    padding: 3rem 0rem 3rem 27.5rem ;
+    bottom: 0.5rem;
+    position: absolute;
+    color: #FAF5E4
+}
+
+.section2 {
+    padding: 4rem;
+}
+
+.box{
+    margin: 12px 22px;
+    padding: 8px 0;
+    min-width: 20vw;
+    border: 1px solid lightgray;
+    border-radius: 0.7rem;
+}
+
+.box h2{
+    padding: 12px 0;
+    font-size: 1.8rem
+}
+
+.box ul{
+    list-style-type: none;
+}
+.box ul li{
+   margin: 1rem 2px; 
+}
+
+.plan-table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 table{
+    width: 100%;
+    margin: 20px 0 140px 0;
+    border-collapse: collapse;
+}
+.section3 table th{
+    padding: 15px 0;
+    width: 23vw;
+    border-bottom: 2px solid lightgray;
+}
+.section3 table td{
+    border-bottom: 2px solid lightgray; 
+}
+
+.section3{
+    padding: 4rem;
+}
+
+footer{
+    padding: 23px;
+}
+
+.buttons{
+    display: flex;
+    /* justify-content: center;  */
+    align-items: center;
+    margin: 12px;
+    position: relative;
+    left: 6rem;
+    max-width: fit-content;
+}
+.deal{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 12px 0;
+    max-width: fit-content;
+}
+
+span{
+    color: #FF6B6B;  
+}
+
+hr{
+    background-color: #fff;
+	border-top: 2px dotted #8c8b8b;
+    }
